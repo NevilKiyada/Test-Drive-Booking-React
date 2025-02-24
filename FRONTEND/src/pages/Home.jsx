@@ -176,9 +176,7 @@ function Home() {
         </motion.div>
       </div>
 
-      <footer className="absolute bottom-0 w-full bg-gray-900 text-white text-center py-4">
-        &copy; {new Date().getFullYear()} CarTest. All rights reserved.
-      </footer>
+      
     </div>
   );
 }

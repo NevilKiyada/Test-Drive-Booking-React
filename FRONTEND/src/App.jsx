@@ -52,6 +52,7 @@
 
 import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
+import Footer from "./components/Footer";
 import Home from './pages/Home';
 import Login from './pages/Login';
 import Register from './pages/Register';
@@ -61,6 +62,7 @@ import ShowroomDetails from './pages/ShowroomDetails';
 import CarDetails from './pages/CarDetails';
 import PrivateRoute from './components/PrivateRoute';
 import AdminDashboard from './pages/AdminDashboard';
+
 import { motion } from 'framer-motion';
 import { useEffect } from 'react';
 
@@ -113,6 +115,7 @@ function App() {
           </Routes>
         </motion.div>
       </main>
+      <Footer />
     </motion.div>
   );
 }
