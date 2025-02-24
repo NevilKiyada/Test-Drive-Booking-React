@@ -1,23 +1,23 @@
-🚗 Car Booking System (MERN Stack)
+###🚗 Car Booking System (MERN Stack)
 
- 📋 Project Overview
+ ##📋 Project Overview
 The Car Booking System is a full-stack web application built with the MERN (MongoDB, Express.js, React.js, Node.js) stack. It allows users to book test drives for cars at different showrooms, while administrators can manage cars, showrooms, and bookings.
 
- 🌟 Features
+ ##🌟 Features
 - **User Authentication:** Secure login and registration with password hashing.
 - **User Roles:** Regular users can book test drives, and admins can manage cars, showrooms, and bookings.
 - **Car Booking:** Users can select time slots to book test drives.
 - **Booking Management:** Admins can approve, cancel, and manage bookings.
 - **Responsive UI:** Clean and modern design with dark mode functionality.
 
- 🛠️ Technologies Used
+ ##🛠️ Technologies Used
 - **Frontend:** React.js with React Router
 - **Backend:** Node.js, Express.js
 - **Database:** MongoDB with Mongoose
 - **Authentication:** JWT (JSON Web Tokens)
 - **Styling:** Tailwind CSS
 
-📂 Project Structure
+##📂 Project Structure
 ```
 project-root
 ├── backend
@@ -34,7 +34,7 @@ project-root
 └── README.md
 ```
 
- 💾 Installation
+ ##💾 Installation
 1. ***Clone the repository:**
 ```bash
 git clone https://github.com/NevilKiyada/Test-Drive-Booking-React.git
