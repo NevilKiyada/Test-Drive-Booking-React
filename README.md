@@ -37,7 +37,7 @@ project-root
  💾 Installation
 1. ***Clone the repository:**
 ```bash
-git clone https://github.com/your-username/car-booking-system.git
+git clone https://github.com/NevilKiyada/Test-Drive-Booking-React.git
 ```
 
 2. **Navigate into the backend directory:**
