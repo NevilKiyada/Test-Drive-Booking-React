@@ -4,23 +4,6 @@ const Car = require("../models/Car");
 
 const router = express.Router();
 
-// Add a new showroom
-// router.post("/add", async (req, res) => {
-//     const { name, location, email, phone, address, owner } = req.body;
-  
-//     // Check if all required fields are provided
-//     if (!name || !location || !email || !phone || !address || !owner) {
-//       return res.status(400).json({ message: "All fields are required" });
-//     }
-  
-//     try {
-//       const newShowroom = new Showroom({ name, location, email, phone, address, owner });
-//       await newShowroom.save();
-//       res.status(201).json({ message: "Showroom added successfully", showroom: newShowroom });
-//     } catch (error) {
-//       res.status(500).json({ message: "Failed to add showroom", error: error.message });
-//     }
-//   });
   
 
 router.post("/add", async (req, res) => {
